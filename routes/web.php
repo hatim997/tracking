@@ -14,6 +14,7 @@ use App\Http\Controllers\Dashboard\SettingController;
 use App\Http\Controllers\Dashboard\TrackingController;
 use App\Http\Controllers\Dashboard\User\ArchivedUserController;
 use App\Http\Controllers\Dashboard\User\UserController;
+use App\Http\Controllers\Frontend\HomeController as FrontendHomeController;
 use App\Http\Middleware\CheckAccountActivation;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
@@ -54,9 +55,9 @@ Route::get('/current-time', function () {
 });
 
 Auth::routes();
-Route::get('/', function () {
-    return redirect()->route('dashboard');
-});
+// Route::get('/', function () {
+//     return redirect()->route('frontend.search');
+// });
 // Guest Routes
 Route::group(['middleware' => ['guest']], function () {
 
@@ -147,7 +148,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
 // Frontend Pages Routes
 Route::name('frontend.')->group(function () {
-
+    Route::get('/', [FrontendHomeController::class, 'searchTracking'])->name('search');
 });
 
 

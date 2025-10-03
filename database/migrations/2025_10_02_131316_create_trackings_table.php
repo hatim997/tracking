@@ -14,8 +14,13 @@ return new class extends Migration
         Schema::create('trackings', function (Blueprint $table) {
             $table->id();
             $table->string('tracking_no');
-            $table->string('name');
-            $table->string('email');
+            $table->string('serial_no');
+            $table->string('client');
+            $table->timestamp('tracking_date');
+            $table->string('item_tested');
+            $table->string('technique');
+            $table->string('report');
+            $table->text('remarks');
             $table->timestamps();
         });
     }

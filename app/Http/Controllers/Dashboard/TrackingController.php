@@ -49,8 +49,13 @@ class TrackingController extends Controller
     {
         $this->authorize('create tracking');
         $validator = Validator::make($request->all(), [
-            'name' => 'required|string|max:255',
-            'email' => 'required|email',
+            'serial_no' => 'required|unique:trackings,serial_no|string|max:255',
+            'client' => 'required|string|max:255',
+            'tracking_date' => 'required|date',
+            'item_tested' => 'required|string|max:255',
+            'technique' => 'required|string|max:255',
+            'report' => 'required|string|max:255',
+            'remarks' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -61,8 +66,13 @@ class TrackingController extends Controller
             DB::beginTransaction();
             $tracking = new Tracking();
             $tracking->tracking_no = $this->generateTrackingNo();
-            $tracking->name = $request->name;
-            $tracking->email = $request->email;
+            $tracking->serial_no = $request->serial_no;
+            $tracking->client = $request->client;
+            $tracking->tracking_date = $request->tracking_date;
+            $tracking->item_tested = $request->item_tested;
+            $tracking->technique = $request->technique;
+            $tracking->report = $request->report;
+            $tracking->remarks = $request->remarks;
 
             // if ($request->hasFile('image')) {
             //     $bookImage = $request->file('image');
@@ -126,8 +136,13 @@ class TrackingController extends Controller
     {
         $this->authorize('update tracking');
         $validator = Validator::make($request->all(), [
-            'name' => 'required|string|max:255',
-            'email' => 'required|email',
+            'serial_no' => 'required|string|max:255|unique:trackings,serial_no,'.$id,
+            'client' => 'required|string|max:255',
+            'tracking_date' => 'required|date',
+            'item_tested' => 'required|string|max:255',
+            'technique' => 'required|string|max:255',
+            'report' => 'required|string|max:255',
+            'remarks' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -137,8 +152,13 @@ class TrackingController extends Controller
         try {
             DB::beginTransaction();
             $tracking = Tracking::findOrFail($id);
-            $tracking->name = $request->name;
-            $tracking->email = $request->email;
+            $tracking->serial_no = $request->serial_no;
+            $tracking->client = $request->client;
+            $tracking->tracking_date = $request->tracking_date;
+            $tracking->item_tested = $request->item_tested;
+            $tracking->technique = $request->technique;
+            $tracking->report = $request->report;
+            $tracking->remarks = $request->remarks;
 
             // if ($request->hasFile('image')) {
             //     if (isset($book->image) && File::exists(public_path($book->image))) {

@@ -25,20 +25,28 @@
                 <table class="datatables-users table border-top custom-datatables">
                     <thead>
                         <tr>
-                            <th>{{ __('Sr.') }}</th>
+                            <th>{{ __('Sr. No') }}</th>
                             <th>{{ __('Tracking No') }}</th>
-                            <th>{{ __('Name') }}</th>
-                            <th>{{ __('Email') }}</th>
+                            <th>{{ __('Client') }}</th>
+                            <th>{{ __('Date') }}</th>
+                            <th>{{ __('Item Tested') }}</th>
+                            <th>{{ __('Technique') }}</th>
+                            <th>{{ __('Report') }}</th>
+                            <th>{{ __('Remarks') }}</th>
                             @canany(['delete tracking','view tracking', 'update tracking'])<th>{{ __('Action') }}</th>@endcan
                         </tr>
                     </thead>
                     <tbody>
                         @foreach ($trackings as $index => $tracking)
                             <tr>
-                                <td>{{ $index + 1 }}</td>
+                                <td>{{ $tracking->serial_no }}</td>
                                 <td>{{ $tracking->tracking_no }}</td>
-                                <td>{{ $tracking->name }}</td>
-                                <td>{{ $tracking->email }}</td>
+                                <td>{{ $tracking->client }}</td>
+                                <td>{{ \Carbon\Carbon::parse($tracking->tracking_date)->format('M d, Y') }}</td>
+                                <td>{{ $tracking->item_tested }}</td>
+                                <td>{{ $tracking->technique }}</td>
+                                <td>{{ $tracking->report }}</td>
+                                <td>{{ $tracking->remarks }}</td>
                                 @canany(['delete tracking','view tracking', 'update tracking'])
                                     <td class="d-flex">
                                         @canany(['delete tracking'])

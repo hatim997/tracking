@@ -40,6 +40,12 @@
                             </a>
                         </li>
                         <li>
+                            <a class="dropdown-item {{ App::getLocale() == 'ur' ? 'active' : '' }}"
+                                href="{{ route('lang', ['lang' => 'ur']) }}">
+                                <span>اُردو<span> (PK)</span></span>
+                            </a>
+                        </li>
+                        <li>
                             <a class="dropdown-item {{ App::getLocale() == 'fr' ? 'active' : '' }}"
                                 href="{{ route('lang', ['lang' => 'fr']) }}">
                                 <span>Français<span> (FR)</span></span>

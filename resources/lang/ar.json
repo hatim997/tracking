@@ -306,5 +306,19 @@
     "System Settings Updated Successfully" : "تم تحديث إعدادات النظام بنجاح",
     "Email Settings Updated Successfully" : "تم تحديث إعدادات البريد الإلكتروني بنجاح",
     "Test Email Validation Error!" : "خطأ في التحقق من البريد الإلكتروني التجريبي!",
-    "Test Email Sent Successfully" : "تم إرسال البريد الإلكتروني التجريبي بنجاح"
+    "Test Email Sent Successfully" : "تم إرسال البريد الإلكتروني التجريبي بنجاح",
+    "Trackings" : "عمليات التتبع",
+    "Add Tracking" : "إضافة تتبع",
+    "Edit Tracking" : "تعديل التتبع",
+    "Edit" : "تعديل",
+    "Delete Tracking" : "حذف التتبع",
+    "Sr. No" : "الرقم التسلسلي",
+    "Tracking No" : "رقم التتبع",
+    "Client" : "العميل",
+    "Item Tested" : "العنصر المفحوص",
+    "Technique" : "التقنية",
+    "Report" : "التقرير",
+    "Remarks" : "ملاحظات",
+    "Serial No" : "الرقم التسلسلي",
+    "Date" : "التاريخ"
 }

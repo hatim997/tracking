@@ -38,7 +38,7 @@ use Illuminate\Support\Facades\Session;
 
 Route::get('/lang/{lang}', function ($lang) {
     // dd($lang);
-    if(! in_array($lang, ['en','fr','ar','de'])){
+    if(! in_array($lang, ['en','fr','ar','de', 'ur'])){
         abort(404);
     }else{
         session(['locale' => $lang]);

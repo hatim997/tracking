@@ -1,4 +1,4 @@
-@extends('frontend.layouts.master')
+{{-- @extends('frontend.layouts.master')
 
 @section('title', __('Verification Successful'))
 
@@ -18,9 +18,9 @@
 @endsection
 
 @section('script')
-@endsection
+@endsection --}}
 
-{{-- @extends('frontend.layouts.master')
+@extends('frontend.layouts.master')
 
 @section('title', __('Verification Successful'))
 
@@ -28,7 +28,7 @@
 @endsection
 
 @section('content')
-    <div class="container vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="container mb-5 mt-3 d-flex flex-column justify-content-center align-items-center">
         <img src="{{ asset(\App\Helpers\Helper::getLogoLight()) }}" alt="Logo" class="mb-4 brand-logo">
 
         <div class="card shadow-lg border-success col-md-10 col-lg-8">
@@ -38,7 +38,8 @@
 
             <div class="card-body">
                 <div class="text-center mb-4">
-                    <div class="display-4 text-success">✔</div>
+                    <div class="display-4 text-success"><img src="{{ asset('uploads/company/tick.png') }}" height="50px" alt="Verification Successful"></div>
+                    {{-- <div class="display-4 text-success">✔</div> --}}
                     <p class="text-muted mb-0">
                         Tracking Number <strong>{{ $tracking->tracking_no }}</strong> is valid and verified.
                     </p>
@@ -92,4 +93,4 @@
 @endsection
 
 @section('script')
-@endsection --}}
+@endsection

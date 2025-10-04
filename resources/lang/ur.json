@@ -1,0 +1,324 @@
+{
+    "Login": "لاگ ان",
+    "Register": "رجسٹر",
+    "Logout": "لاگ آؤٹ",
+
+    "Dashboard": "ڈیش بورڈ",
+    "Apps & Pages": "ایپس اور صفحات",
+    "Users": "صارفین",
+    "All Users": "تمام صارفین",
+    "Archived Users": "آرکائیوڈ صارفین",
+    "Roles & Permissions": "کردار اور اجازات",
+    "Roles": "کردار",
+    "Permissions": "اجازات",
+    "Settings": "ترتیبات",
+
+    "Search (Ctrl+/)" : "تلاش (Ctrl+/)",
+    "Notification" : "اطلاع",
+    "View all notifications" : "تمام اطلاعات دیکھیں",
+    "My Profile" : "میری پروفائل",
+    "FAQ" : "عمومی سوالات",
+    "Search..." : "تلاش کریں...",
+
+    "Welcome to" : "خوش آمدید",
+    "Please sign-in to your account and start the adventure" : "براہ کرم اپنے اکاؤنٹ میں سائن ان کریں اور ایڈونچر شروع کریں",
+    "Email/Username" : "ای میل/صارف نام",
+    "Enter your email or username" : "اپنا ای میل یا صارف نام درج کریں",
+    "Password" : "پاس ورڈ",
+    "Remember Me" : "مجھے یاد رکھیں",
+    "Forgot Password?" : "پاس ورڈ بھول گئے؟",
+    "Sign in" : "سائن ان",
+    "New on our platform?" : "ہمارے پلیٹ فارم پر نئے ہیں؟",
+    "Create an account" : "اکاؤنٹ بنائیں",
+    "or" : "یا",
+    "Adventure starts here" : "یہاں سے ایڈونچر شروع ہوتا ہے",
+    "Make your app management easy and fun!" : "اپنی ایپ مینجمنٹ کو آسان اور مزیدار بنائیں!",
+    "Name" : "نام",
+    "Enter your name" : "اپنا نام درج کریں",
+    "Email" : "ای میل",
+    "Enter your email" : "اپنا ای میل درج کریں",
+    "Confirm Password" : "پاس ورڈ کی تصدیق کریں",
+    "I agree to" : "میں متفق ہوں",
+    "privacy policy & terms" : "رازداری کی پالیسی اور شرائط",
+    "Sign up" : "سائن اپ",
+    "Already have an account?" : "پہلے سے اکاؤنٹ ہے؟",
+    "Sign in instead" : "اس کے بجائے سائن ان کریں",
+    "Verify your email ✉️" : "اپنا ای میل تصدیق کریں ✉️",
+    "Account activation link sent to your email address. Please follow the link inside to continue." : "اکاؤنٹ ایکٹیویشن لنک آپ کے ای میل ایڈریس پر بھیج دیا گیا ہے۔ براہ کرم لنک پر عمل کریں تاکہ آگے بڑھ سکیں۔",
+    "Skip for now" : "فی الحال چھوڑ دیں",
+    "Didn't get the mail?" : "ای میل موصول نہیں ہوا؟",
+    "Resend" : "دوبارہ بھیجیں",
+    "Forgot Password? 🔒" : "پاس ورڈ بھول گئے؟ 🔒",
+    "Enter your email and we'll send you instructions to reset your password" : "اپنا ای میل درج کریں اور ہم آپ کو پاس ورڈ دوبارہ ترتیب دینے کی ہدایات بھیجیں گے",
+    "Send Reset Link" : "ری سیٹ لنک بھیجیں",
+    "Back to login" : "لاگ ان پر واپس",
+    "Reset Password 🔒" : "پاس ورڈ دوبارہ ترتیب دیں 🔒",
+    "Your new password must be different from previously used passwords" : "آپ کا نیا پاس ورڈ پچھلے استعمال شدہ پاس ورڈز سے مختلف ہونا چاہیے",
+    "New Password" : "نیا پاس ورڈ",
+    "Confirm New Password" : "نئے پاس ورڈ کی تصدیق کریں",
+    "Set new password" : "نیا پاس ورڈ سیٹ کریں",
+
+    "Permission Denied ⚠️" : "اجازت مسترد ⚠️",
+    "You do not have permission to access this resource." : "آپ کو اس وسائل تک رسائی کی اجازت نہیں ہے۔",
+    "Back to home" : "ہوم پر واپس",
+    "Page Not Found️ ⚠️" : "صفحہ نہیں ملا ⚠️",
+    "we couldn't find the page you are looking for" : "ہم وہ صفحہ نہیں ڈھونڈ سکے جو آپ تلاش کر رہے ہیں",
+    "Too Many Requests" : "بہت زیادہ درخواستیں",
+    "You've sent too many requests in a given amount of time. Please try again later." : "آپ نے دیے گئے وقت میں بہت زیادہ درخواستیں بھیجی ہیں۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+    "Server Side Error" : "سرور کی طرف سے خرابی",
+    "Something went wrong on your server side." : "سرور کی طرف سے کچھ غلط ہو گیا۔",
+    "Your Account Has Been Deactivated" : "آپ کا اکاؤنٹ غیر فعال کر دیا گیا ہے",
+    "It looks like your account is inactive. Please contact support if you believe this is a mistake." : "ایسا لگتا ہے کہ آپ کا اکاؤنٹ غیر فعال ہے۔ اگر آپ کو لگتا ہے کہ یہ غلطی ہے تو براہ کرم سپورٹ سے رابطہ کریں۔",
+    "Contact Support" : "سپورٹ سے رابطہ کریں",
+
+    "Hi" : "ہیلو",
+    "Email Settings:" : "ای میل ترتیبات:",
+    "Mail Driver:" : "میل ڈرائیور:",
+    "Mail Host:" : "میل ہوسٹ:",
+    "Mail Port:" : "میل پورٹ:",
+    "Mail Username:" : "میل صارف نام:",
+    "Mail Password:" : "میل پاس ورڈ:",
+    "Mail Encryption:" : "میل انکرپشن:",
+    "Mail From Address:" : "میل سے ایڈریس:",
+    "Mail From Name:" : "میل سے نام:",
+    "Default Email Settings:" : "طے شدہ ای میل ترتیبات:",
+    "Go to Dashboard" : "ڈیش بورڈ پر جائیں",
+    "We're thrilled to have you join our community! Below are your account credentials to help you get started:" : "ہم بہت خوش ہیں کہ آپ ہماری کمیونٹی کا حصہ بنے! نیچے آپ کے اکاؤنٹ کی تفصیلات ہیں تاکہ آپ شروعات کر سکیں:",
+    "Your Login Credentials:" : "آپ کے لاگ ان کی تفصیلات:",
+    "Email:" : "ای میل:",
+    "Password:" : "پاس ورڈ:",
+    "Log in and explore all the amazing features waiting for you. If you have any questions or need assistance, our team is here to help!" : "لاگ ان کریں اور آپ کے انتظار میں موجود تمام شاندار خصوصیات کو دریافت کریں۔ اگر آپ کے کوئی سوالات ہیں یا آپ کو کسی مدد کی ضرورت ہے، ہماری ٹیم آپ کی مدد کے لیے موجود ہے!",
+
+    "Profile" : "پروفائل",
+    "Joined" : "شامل ہوئے",
+    "Account Settings" : "اکاؤنٹ ترتیبات",
+    "Security" : "سیکیورٹی",
+    "About" : "کے بارے میں",
+    "Full Name" : "مکمل نام",
+    "Username" : "صارف نام",
+    "Role" : "کردار",
+    "Designation" : "عہدہ",
+    "Country" : "ملک",
+    "Language" : "زبان",
+    "Gender" : "جنس",
+    "Marital Status" : "ازدواجی حیثیت",
+    "Contacts" : "رابطے",
+    "Contact" : "رابطہ",
+    "BIO" : "بائیو",
+    "Social" : "سوشل",
+    "Facebook" : "فیس بک",
+    "Linkedin" : "لنکڈ ان",
+    "Skype" : "اسکائپ",
+    "Instagram" : "انسٹاگرام",
+    "Github" : "گٹ ہب",
+    "No Social Links" : "کوئی سوشل لنکس نہیں",
+    "Copy" : "کاپی",
+    "Copied" : "کاپی ہو گیا",
+    "Change Password" : "پاس ورڈ تبدیل کریں",
+    "Current Password" : "موجودہ پاس ورڈ",
+    "Password Requirements" : "پاس ورڈ کے تقاضے",
+    "Minimum 8 characters long - the more, the better" : "کم از کم 8 حروف طویل - جتنا زیادہ، اتنا بہتر",
+    "At least one lowercase character" : "کم از کم ایک چھوٹا حرف",
+    "At least one number, symbol, or whitespace character" : "کم از کم ایک نمبر، علامت، یا خالی جگہ کا حرف",
+    "Save changes" : "تبدیلیاں محفوظ کریں",
+    "Reset" : "ری سیٹ",
+    "Upload new photo" : "نئی تصویر اپ لوڈ کریں",
+    "Allowed JPG, JPEG, or PNG. Max size of" : "JPG، JPEG، یا PNG کی اجازت ہے۔ زیادہ سے زیادہ سائز",
+    "First Name" : "پہلا نام",
+    "Enter your first name" : "اپنا پہلا نام درج کریں",
+    "Last Name" : "آخری نام",
+    "Enter your last name" : "اپنا آخری نام درج کریں",
+    "Date of Birth" : "تاریخ پیدائش",
+    "Enter your date of birth" : "اپنی تاریخ پیدائش درج کریں",
+    "Phone Number" : "فون نمبر",
+    "Select Country" : "ملک منتخب کریں",
+    "City" : "شہر",
+    "Zip Code" : "زپ کوڈ",
+    "Street" : "گلی",
+    "i.e. Beacon Main St. #55" : "مثال کے طور پر بیکن مین اسٹریٹ #55",
+    "Select Language" : "زبان منتخب کریں",
+    "Select Gender" : "جنس منتخب کریں",
+    "Select Marital Status" : "ازدواجی حیثیت منتخب کریں",
+    "Bio" : "بائیو",
+    "i.e. A Modern UI designer" : "مثال کے طور پر ایک جدید UI ڈیزائنر",
+    "Social Links" : "سوشل لنکس",
+    "Deactivate Account" : "اکاؤنٹ غیر فعال کریں",
+    "Are you sure you want to deactivate your account?" : "کیا آپ واقعی اپنا اکاؤنٹ غیر فعال کرنا چاہتے ہیں؟",
+    "Once you deactivate your account, there is no going back. Please be certain." : "ایک بار جب آپ اپنا اکاؤنٹ غیر فعال کر دیں، واپسی ممکن نہیں ہوگی۔ براہ کرم یقین کر لیں۔",
+    "I confirm my account deactivation" : "میں اپنے اکاؤنٹ کی غیر فعالی کی تصدیق کرتا ہوں",
+
+    "Roles List" : "کرداروں کی فہرست",
+    "A role provided access to predefined menus and features so that depending on" : "ایک کردار پہلے سے طے شدہ مینوز اور خصوصیات تک رسائی فراہم کرتا ہے تاکہ اس پر منحصر ہو",
+    "assigned role an administrator can have access to what user needs." : "تفویض کردہ کردار کے مطابق ایک ایڈمنسٹریٹر کو صارف کی ضرورت کے مطابق رسائی حاصل ہو سکتی ہے۔",
+    "Total" : "کل",
+    "users" : "صارفین",
+    "Edit Role" : "کردار میں ترمیم کریں",
+    "Add New Role" : "نیا کردار شامل کریں",
+    "Add new role," : "نیا کردار شامل کریں،",
+    "if it doesn't exist." : "اگر یہ موجود نہیں ہے۔",
+    "Total Roles" : "کل کردار",
+    "Find all of your company’s roles." : "اپنی کمپنی کے تمام کردار تلاش کریں۔",
+    "Sr." : "نمبر",
+    "Created Date" : "تخلیق کی تاریخ",
+    "Action" : "عمل",
+    "Set role permissions" : "کردار کی اجازات سیٹ کریں",
+    "Role Name" : "کردار کا نام",
+    "Enter role name" : "کردار کا نام درج کریں",
+    "Role Permissions" : "کردار کی اجازات",
+    "Administrator Access" : "ایڈمنسٹریٹر رسائی",
+    "Allows a full access to the system" : "سسٹم تک مکمل رسائی کی اجازت دیتا ہے",
+    "Select All" : "سب منتخب کریں",
+    "Submit" : "جمع کرائیں",
+    "Cancel" : "منسوخ کریں",
+    "role" : "کردار",
+    "Permission" : "اجازت",
+    "permission" : "اجازت",
+    "User" : "صارف",
+    "user" : "صارف",
+    "Archived user" : "آرکائیوڈ صارف",
+    "archived user" : "آرکائیوڈ صارف",
+    "Setting" : "ترتیب",
+    "setting" : "ترتیب",
+    "View" : "دیکھیں",
+    "Create" : "بنائیں",
+    "Update" : "اپ ڈیٹ",
+    "Delete" : "حذف کریں",
+    "Assigned To" : "تفویض کردہ",
+    "No Roles Assigned" : "کوئی کردار تفویض نہیں کیا گیا",
+
+    "Company Setting" : "کمپنی کی ترتیب",
+    "ReCaptcha Setting" : "ری کیپچا ترتیب",
+    "System Settings" : "سسٹم ترتیبات",
+    "Email Settings" : "ای میل ترتیبات",
+    "Upload light logo" : "ہلکا لوگو اپ لوڈ کریں",
+    "Allowed JPG, JPEG, SVG or PNG. Max size of" : "JPG، JPEG، SVG یا PNG کی اجازت ہے۔ زیادہ سے زیادہ سائز",
+    "Upload dark logo" : "گہرا لوگو اپ لوڈ کریں",
+    "Upload favicon" : "فیویکن اپ لوڈ کریں",
+    "Company Name" : "کمپنی کا نام",
+    "Enter your company name" : "اپنی کمپنی کا نام درج کریں",
+    "Company Email" : "کمپنی کا ای میل",
+    "Enter your company email" : "اپنی کمپنی کا ای میل درج کریں",
+    "Address" : "پتہ",
+    "Send Test Mail" : "ٹیسٹ میل بھیجیں",
+    "Mail Driver" : "میل ڈرائیور",
+    "Mail Host" : "میل ہوسٹ",
+    "Mail Port" : "میل پورٹ",
+    "Mail Username" : "میل صارف نام",
+    "Enter your mail username" : "اپنا میل صارف نام درج کریں",
+    "Mail Password" : "میل پاس ورڈ",
+    "Enter your mail password" : "اپنا میل پاس ورڈ درج کریں",
+    "Mail Encryption" : "میل انکرپشن",
+    "From Mail" : "میل سے",
+    "From Name" : "نام سے",
+    "Enter name to show as from mail" : "میل سے دکھانے کے لیے نام درج کریں",
+    "Enable Status" : "حالت فعال کریں",
+    "Enable Mails" : "میلوں کو فعال کریں",
+    "Disable Mails" : "میلوں کو غیر فعال کریں",
+    "Enter email where you want to receive test mail." : "وہ ای میل درج کریں جہاں آپ ٹیسٹ میل وصول کرنا چاہتے ہیں۔",
+    "Please check your spam or junk folder if you don't see the test email in your inbox." : "براہ کرم اپنے اسپام یا جنک فولڈر کو چیک کریں اگر آپ کو اپنے ان باکس میں ٹیسٹ ای میل نظر نہ آئے۔",
+    "Close" : "بند کریں",
+    "Send Mail" : "میل بھیجیں",
+    "ReCaptcha Settings" : "ری کیپچا ترتیبات",
+    "Google ReCaptcha Type" : "گوگل ری کیپچا کی قسم",
+    "Select Recaptcha type" : "ری کیپچا کی قسم منتخب کریں",
+    "reCAPTCHA V2" : "ری کیپچا V2",
+    "reCAPTCHA V3" : "ری کیپچا V3",
+    "No Captcha" : "کوئی کیپچا نہیں",
+    "Google ReCaptcha Key" : "گوگل ری کیپچا کلید",
+    "Enter google recaptcha key" : "گوگل ری کیپچا کلید درج کریں",
+    "Google ReCaptcha Secret" : "گوگل ری کیپچا راز",
+    "Enter google recaptcha secret" : "گوگل ری کیپچا راز درج کریں",
+    "Storage Settings" : "اسٹوریج ترتیبات",
+    "Max Upload Size" : "زیادہ سے زیادہ اپ لوڈ سائز",
+    "Size must be in KBs" : "سائز کے بیز میں ہونا چاہیے",
+    "Currency Settings" : "کرنسی ترتیبات",
+    "Currency Symbol" : "کرنسی علامت",
+    "Currency Symbol Position" : "کرنسی علامت کی پوزیشن",
+    "Prefix" : "پریفکس",
+    "Postfix" : "پوسٹ فکس",
+    "Other Settings" : "دوسری ترتیبات",
+    "Timezone" : "ٹائم زون",
+    "Select Timezone" : "ٹائم زون منتخب کریں",
+    "Footer Text" : "فوٹر ٹیکسٹ",
+
+    "Total Users" : "کل صارفین",
+    "Deactivated Users" : "غیر فعال صارفین",
+    "Total Deactive Users" : "کل غیر فعال صارفین",
+    "Active Users" : "فعال صارفین",
+    "Total Active Users" : "کل فعال صارفین",
+    "Total Archived Users" : "کل آرکائیوڈ صارفین",
+    "Add New User" : "نیا صارف شامل کریں",
+    "Status" : "حالت",
+    "Archive User" : "صارف آرکائیو کریں",
+    "Deactivate User" : "صارف غیر فعال کریں",
+    "Activate User" : "صارف فعال کریں",
+    "Add User" : "صارف شامل کریں",
+    "User Role" : "صارف کا کردار",
+    "Select Role" : "کردار منتخب کریں",
+    "Edit User" : "صارف میں ترمیم کریں",
+    "Details" : "تفصیلات",
+    "Deletion Date" : "حذف کرنے کی تاریخ",
+    "Permanent Delete" : "مستقل حذف",
+    "Restore User" : "صارف بحال کریں",
+
+    "Export" : "برآمد کریں",
+    "Print" : "پرنٹ کریں",
+    "Csv" : "سی ایس وی",
+    "Excel" : "ایکسل",
+    "Pdf" : "پی ڈی ایف",
+    "Success!" : "کامیابی!",
+    "Info!" : "معلومات!",
+    "Error!" : "خرابی!",
+    "Are you sure?" : "کیا آپ یقین رکھتے ہیں؟",
+    "You would not be able to revert this!" : "آپ اسے واپس نہیں کر سکیں گے!",
+    "Yes, delete it!" : "ہاں، اسے حذف کریں!",
+    "Your data is safe!" : "آپ کا ڈیٹا محفوظ ہے!",
+
+    "Validation Error!" : "تصدیق کی خرابی!",
+    "User created successfully" : "صارف کامیابی سے بنایا گیا",
+    "User updated successfully" : "صارف کامیابی سے اپ ڈیٹ ہوا",
+    "Account Deleted Successfully" : "اکاؤنٹ کامیابی سے حذف ہوا",
+    "Account Deactivated Successfully" : "اکاؤنٹ کامیابی سے غیر فعال ہوا",
+    "Account Activated Successfully" : "اکاؤنٹ کامیابی سے فعال ہوا",
+    "Logout Successfully!" : "لاگ آؤٹ کامیابی سے ہوا!",
+    "Verification link sent!" : "تصدیقی لنک بھیج دیا گیا!",
+    "GitHub login successfully." : "گٹ ہب لاگ ان کامیابی سے ہوا۔",
+    "GitHub login failed. Please try again." : "گٹ ہب لاگ ان ناکام ہوا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "Google login successfully." : "گوگل لاگ ان کامیابی سے ہوا۔",
+    "Google login failed. Please try again." : "گوگل لاگ ان ناکام ہوا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "Login successfully!" : "لاگ ان کامیابی سے ہوا!",
+    "Authentication Error" : "تصدیق کی خرابی",
+    "Password is mismatch" : "پاس ورڈ مطابقت نہیں رکھتا",
+    "Invalid credentials" : "غلط اسناد",
+    "Something went wrong! Please try again later" : "کچھ غلط ہو گیا! براہ کرم بعد میں دوبارہ کوشش کریں",
+    "Your account has been created successfully." : "آپ کا اکاؤنٹ کامیابی سے بنایا گیا ہے۔",
+    "Role created successfully" : "کردار کامیابی سے بنایا گیا",
+    "Role updated successfully" : "کردار کامیابی سے اپ ڈیٹ ہوا",
+    "Role deleted successfully" : "کردار کامیابی سے حذف ہوا",
+    "You cannot delete a role that has users" : "آپ اس کردار کو حذف نہیں کر سکتے جس کے صارفین ہیں",
+    "User Permanently Deleted Successfully" : "صارف مستقل طور پر کامیابی سے حذف ہوا",
+    "User Restored Successfully" : "صارف کامیابی سے بحال ہوا",
+    "Profile Updated Successfully" : "پروفائل کامیابی سے اپ ڈیٹ ہوا",
+    "Current Password is incorrect" : "موجودہ پاس ورڈ غلط ہے",
+    "Password Updated Successfully" : "پاس ورڈ کامیابی سے اپ ڈیٹ ہوا",
+    "Company Settings Updated Successfully" : "کمپنی کی ترتیبات کامیابی سے اپ ڈیٹ ہوئیں",
+    "Recaptcha Settings Updated Successfully" : "ری کیپچا ترتیبات کامیابی سے اپ ڈیٹ ہوئیں",
+    "System Settings Updated Successfully" : "سسٹم ترتیبات کامیابی سے اپ ڈیٹ ہوئیں",
+    "Email Settings Updated Successfully" : "ای میل ترتیبات کامیابی سے اپ ڈیٹ ہوئیں",
+    "Test Email Validation Error!" : "ٹیسٹ ای میل تصدیق کی خرابی!",
+    "Test Email Sent Successfully" : "ٹیسٹ ای میل کامیابی سے بھیج دیا گیا",
+    "Trackings" : "ٹریکنگ",
+    "Add Tracking" : "ٹریکنگ شامل کریں",
+    "Edit Tracking" : "ٹریکنگ میں ترمیم کریں",
+    "Edit" : "ترمیم کریں",
+    "Delete Tracking" : "ٹریکنگ حذف کریں",
+    "Sr. No" : "سیریل نمبر",
+    "Tracking No" : "ٹریکنگ نمبر",
+    "Client" : "کلائنٹ",
+    "Item Tested" : "ٹیسٹ کیا گیا آئٹم",
+    "Technique" : "تکنیک",
+    "Report" : "رپورٹ",
+    "Remarks" : "ریمارکس",
+    "Serial No" : "سیریل نمبر",
+    "Date" : "تاریخ"
+}

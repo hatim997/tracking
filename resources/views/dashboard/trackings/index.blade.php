@@ -26,12 +26,12 @@
                     <thead>
                         <tr>
                             <th>{{ __('Sr. No') }}</th>
-                            <th>{{ __('Tracking No') }}</th>
+                            <th>{{ __('Report') }}</th>
+                            {{-- <th>{{ __('Tracking No') }}</th> --}}
                             <th>{{ __('Client') }}</th>
                             <th>{{ __('Date') }}</th>
                             <th>{{ __('Item Tested') }}</th>
                             <th>{{ __('Technique') }}</th>
-                            <th>{{ __('Report') }}</th>
                             <th>{{ __('Remarks') }}</th>
                             @canany(['delete tracking','view tracking', 'update tracking'])<th>{{ __('Action') }}</th>@endcan
                         </tr>
@@ -40,12 +40,12 @@
                         @foreach ($trackings as $index => $tracking)
                             <tr>
                                 <td>{{ $tracking->serial_no }}</td>
-                                <td>{{ $tracking->tracking_no }}</td>
+                                <td>{{ $tracking->report }}</td>
+                                {{-- <td>{{ $tracking->tracking_no }}</td> --}}
                                 <td>{{ $tracking->client }}</td>
                                 <td>{{ \Carbon\Carbon::parse($tracking->tracking_date)->format('M d, Y') }}</td>
                                 <td>{{ $tracking->item_tested }}</td>
                                 <td>{{ $tracking->technique }}</td>
-                                <td>{{ $tracking->report }}</td>
                                 <td>{{ $tracking->remarks }}</td>
                                 @canany(['delete tracking','view tracking', 'update tracking'])
                                     <td class="d-flex">

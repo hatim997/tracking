@@ -15,10 +15,10 @@ class HomeController extends Controller
             $trackingNumber = $request->input('tracking');
 
             if ($trackingNumber) {
-                $tracking = Tracking::where('tracking_no', $trackingNumber)->first();
+                $tracking = Tracking::where('report', $trackingNumber)->first();
 
                 if (!$tracking) {
-                    return redirect()->back()->with('tracking_error', "Tracking number {$trackingNumber} not found!");
+                    return redirect()->back()->with('tracking_error', "Report number {$trackingNumber} not found!");
                 }
 
                 return view('frontend.verified', compact('tracking'));

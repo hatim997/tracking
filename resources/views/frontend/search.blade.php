@@ -19,9 +19,9 @@
                 @endif
             <form action="{{ route('frontend.search') }}" method="GET">
                 <div class="mb-3">
-                    <label for="tracking" class="form-label">Enter Tracking Number</label>
+                    <label for="tracking" class="form-label">Enter Report Number</label>
                     <input type="text" class="form-control" id="tracking" name="tracking"
-                        placeholder="TRACK-2025-123456" required>
+                        placeholder="XXX-XXX-XX-XX-XXXX	" required>
                 </div>
                 <button type="submit" class="btn btn-orange w-100">Verify</button>
             </form>

@@ -41,20 +41,24 @@
                     <div class="display-4 text-success"><img src="{{ asset('uploads/company/tick.png') }}" height="50px" alt="Verification Successful"></div>
                     {{-- <div class="display-4 text-success">✔</div> --}}
                     <p class="text-muted mb-0">
-                        Tracking Number <strong>{{ $tracking->tracking_no }}</strong> is valid and verified.
+                        Report Number <strong>{{ $tracking->tracking_no }}</strong> is valid and verified.
                     </p>
                 </div>
 
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped align-middle">
                         <tbody>
-                            <tr>
+                            {{-- <tr>
                                 <th class="bg-light text-success w-25">Tracking No</th>
                                 <td>{{ $tracking->tracking_no }}</td>
-                            </tr>
-                            <tr>
+                            </tr> --}}
+                            {{-- <tr>
                                 <th class="bg-light text-success">Serial No</th>
                                 <td>{{ $tracking->serial_no }}</td>
+                            </tr> --}}
+                            <tr>
+                                <th class="bg-light text-success">Report No.</th>
+                                <td>{{ $tracking->report }}</td>
                             </tr>
                             <tr>
                                 <th class="bg-light text-success">Client</th>
@@ -71,10 +75,6 @@
                             <tr>
                                 <th class="bg-light text-success">Technique</th>
                                 <td>{{ $tracking->technique }}</td>
-                            </tr>
-                            <tr>
-                                <th class="bg-light text-success">Report</th>
-                                <td>{{ $tracking->report }}</td>
                             </tr>
                             <tr>
                                 <th class="bg-light text-success">Remarks</th>

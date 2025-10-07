@@ -41,7 +41,7 @@
                     <div class="display-4 text-success"><img src="{{ asset('uploads/company/tick.png') }}" height="50px" alt="Verification Successful"></div>
                     {{-- <div class="display-4 text-success">✔</div> --}}
                     <p class="text-muted mb-0">
-                        Report Number <strong>{{ $tracking->tracking_no }}</strong> is valid and verified.
+                        Report Number <strong>{{ $tracking->report }}</strong> is valid and verified.
                     </p>
                 </div>
 

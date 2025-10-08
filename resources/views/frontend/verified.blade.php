@@ -77,6 +77,10 @@
                                 <td>{{ $tracking->technique }}</td>
                             </tr>
                             <tr>
+                                <th class="bg-light text-success">Inspector</th>
+                                <td>{{ $tracking->inspector }}</td>
+                            </tr>
+                            <tr>
                                 <th class="bg-light text-success">Location</th>
                                 <td>{{ $tracking->location }}</td>
                             </tr>

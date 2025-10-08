@@ -88,6 +88,17 @@
                             @enderror
                         </div>
                         <div class="mb-4 col-md-12">
+                            <label for="inspector" class="form-label">{{ __('Inspector') }}</label><span
+                                class="text-danger">*</span>
+                            <input class="form-control @error('inspector') is-invalid @enderror" type="text" id="inspector"
+                                name="inspector" value="{{ old('inspector', $tracking->inspector) }}" required placeholder="{{ __('Enter inspector') }}" />
+                            @error('inspector')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                        <div class="mb-4 col-md-12">
                             <label for="location" class="form-label">{{ __('Location') }}</label><span
                                 class="text-danger">*</span>
                             <input class="form-control @error('location') is-invalid @enderror" type="text" id="location"

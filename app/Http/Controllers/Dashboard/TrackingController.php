@@ -55,6 +55,7 @@ class TrackingController extends Controller
             'item_tested' => 'required|string|max:255',
             'technique' => 'required|string|max:255',
             'location' => 'required|string|max:255',
+            'inspector' => 'required|string|max:255',
             'report' => 'required|unique:trackings,report|string|max:255',
             'remarks' => 'required',
         ]);
@@ -73,6 +74,7 @@ class TrackingController extends Controller
             $tracking->item_tested = $request->item_tested;
             $tracking->technique = $request->technique;
             $tracking->report = $request->report;
+            $tracking->inspector = $request->inspector;
             $tracking->location = $request->location;
             $tracking->remarks = $request->remarks;
 
@@ -143,6 +145,7 @@ class TrackingController extends Controller
             'tracking_date' => 'required|date',
             'item_tested' => 'required|string|max:255',
             'technique' => 'required|string|max:255',
+            'inspector' => 'required|string|max:255',
             'location' => 'required|string|max:255',
             'report' => 'required|string|max:255|unique:trackings,report,'.$id,
             'remarks' => 'required',
@@ -161,6 +164,7 @@ class TrackingController extends Controller
             $tracking->item_tested = $request->item_tested;
             $tracking->technique = $request->technique;
             $tracking->report = $request->report;
+            $tracking->inspector = $request->inspector;
             $tracking->location = $request->location;
             $tracking->remarks = $request->remarks;
 

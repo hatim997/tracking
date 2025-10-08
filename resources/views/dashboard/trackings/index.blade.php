@@ -32,6 +32,7 @@
                             <th>{{ __('Date') }}</th>
                             <th>{{ __('Item Tested') }}</th>
                             <th>{{ __('Technique') }}</th>
+                            <th>{{ __('Inspector') }}</th>
                             <th>{{ __('Location') }}</th>
                             <th>{{ __('Remarks') }}</th>
                             @canany(['delete tracking','view tracking', 'update tracking'])<th>{{ __('Action') }}</th>@endcan
@@ -47,6 +48,7 @@
                                 <td>{{ \Carbon\Carbon::parse($tracking->tracking_date)->format('M d, Y') }}</td>
                                 <td>{{ $tracking->item_tested }}</td>
                                 <td>{{ $tracking->technique }}</td>
+                                <td>{{ $tracking->inspector }}</td>
                                 <td>{{ $tracking->location }}</td>
                                 <td>{{ $tracking->remarks }}</td>
                                 @canany(['delete tracking','view tracking', 'update tracking'])

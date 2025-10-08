@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('item_tested');
             $table->string('technique');
             $table->string('report');
+            $table->string('location');
             $table->text('remarks');
             $table->timestamps();
         });

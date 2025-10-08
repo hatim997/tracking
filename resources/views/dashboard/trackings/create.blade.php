@@ -87,6 +87,17 @@
                             @enderror
                         </div>
                         <div class="mb-4 col-md-12">
+                            <label for="location" class="form-label">{{ __('Location') }}</label><span
+                                class="text-danger">*</span>
+                            <input class="form-control @error('location') is-invalid @enderror" type="text" id="location"
+                                name="location" value="{{ old('location') }}" required placeholder="{{ __('Enter location') }}" />
+                            @error('location')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                        <div class="mb-4 col-md-12">
                             <label for="remarks" class="form-label">{{ __('Remarks') }}</label><span
                                 class="text-danger">*</span>
                             <textarea class="form-control @error('remarks') is-invalid @enderror" name="remarks" id="remarks" cols="30" rows="10" required>{{ old('remarks') }}</textarea>
